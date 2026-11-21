@@ -1,0 +1,13 @@
+{
+    "name": "dns-debugger/dns-debugger",
+    "description": "DNSSEC chain-of-trust debugger",
+    "type": "library",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DnsDebugger\\": "src/"
+        }
+    }
+}
